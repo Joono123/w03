@@ -18,6 +18,6 @@ def get_path():
             print(fp.readlines())
             if 'ok' in map(lambda x: x.strip('\n'), fp.readlines()):
                 with open("/home/rapa/result.txt", 'w') as result:
-                    result.write(fp.readlines())
+                    result.write(fp_lst)
 
 get_path()
