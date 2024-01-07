@@ -44,3 +44,5 @@ def get_path():
 
 
 get_path()
+
+#아오 힘들다ㅅㅂ
